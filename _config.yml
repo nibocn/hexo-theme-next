@@ -328,8 +328,9 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  # enable: false
+  enable: true
+  shortname: nibo
   count: true
 
 # Hypercomments
@@ -377,7 +378,7 @@ valine:
 #add_this_id:
 
 # Share
-duoshuo_share: true
+# duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -400,11 +401,11 @@ duoshuo_share: true
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: false
-  admin_enable: true
-  user_id: 13850261
-  admin_nickname: NiBo
+# duoshuo_info:
+#   ua_enable: false
+#   admin_enable: true
+#   user_id: 13850261
+#   admin_nickname: NiBo
 
 
 
